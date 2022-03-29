@@ -14,7 +14,7 @@ let lavoro = document.getElementById("lavoro").value;
 let prezzofinito=0;
 if (lavoro==BackEnd){
 
-prezzofin=ackEnd* ore;
+prezzofin=BackEnd* ore;
 }
   
 }
