@@ -2,23 +2,19 @@
 
 
 
-
 function calcolo(){
-let sviluppoBackEnd = 20.5;
-let sviluppoFrontEnd = 15.3;
-let projectAnalist = 33.6;
+let BackEnd = 20.5;
 
-
-let ore = document.getElementById("ore").value; //ore richieste
+let ore = document.getElementById("ore").value; 
     ore = parseInt(ore)
     alert(ore);
-let lavoro = document.getElementById("lavoro").value; //tipo di lavor
+let lavoro = document.getElementById("lavoro").value; 
     alert(lavoro);
 
 let prezzofinito=0;
-if (lavoro==sviluppoBackEnd){
+if (lavoro==BackEnd){
 
-prezzofin=sviluppoBackEnd* ore;
+prezzofin=ackEnd* ore;
 }
   
 }
