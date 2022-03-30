@@ -1,12 +1,12 @@
 
 function sconto(a) {
-    let codiceScontoAccettato = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"];
+    let codicesconto = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"];
     let sconto = document.getElementById("sconto1").value;
     let prezzo = a;
 
-    for (i = 0; i < codiceScontoAccettato.length; i++) {
+    for (i = 0; i < codicesconto.length; i++) {
 
-        if (sconto == codiceScontoAccettato[i]) {
+        if (sconto== codicesconto[i]) {
 
             alert("accettato codice sconto");
             alert(prezzo);
@@ -33,7 +33,11 @@ function calcolo() {
     let ore = document.getElementById("ore").value;
     ore = parseInt(ore);
     let lavoro = document.getElementById("lavoro").value;
-    
+
+
+
+
+
     if (lavoro == 1) {
         prezzo = sviluppoBackEnd * ore;
         sconto(prezzo);
@@ -51,27 +55,3 @@ function calcolo() {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
