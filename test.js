@@ -1,7 +1,7 @@
 
 function sconto(a) {
     let codiceScontoAccettato = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"];
-    let sconto = document.getElementById("codiceSconto").value;
+    let sconto = document.getElementById("sconto1").value;
     let prezzo = a;
 
     for (i = 0; i < codiceScontoAccettato.length; i++) {
